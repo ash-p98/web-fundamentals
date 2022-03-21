@@ -1,0 +1,44 @@
+h1{
+    color: blue;
+}
+
+main{
+    width: 90%;
+    border: 2px solid black;
+    margin: 50px auto;
+    display: flex;
+}
+
+
+.back{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.lorem{
+    background-color: white;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.lorem-text{
+    width: 90%;
+    background-color: lightgray;
+    justify-content: center;
+    align-items: center;
+}
+
+.lorem-title{
+    
+}
+
+section{
+    background-color: grey;
+    width: 90%;
+    border: 2px solid black;
+    margin: 50px auto;
+    display: flex;
+}
