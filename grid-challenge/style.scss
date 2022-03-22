@@ -1,0 +1,28 @@
+.top {
+  border: 2px solid red;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  .right {
+    border: 2px solid blue;
+  }
+  .left {
+    border: 2px solid yellow;
+  }
+}
+
+.bottom {
+  border: 2px solid green;
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr 1fr;
+}
+
+.columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .titles{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
